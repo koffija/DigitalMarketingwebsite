@@ -543,6 +543,34 @@ span {
   background: var(--main-color);
 }
 
+/* Agrandir les cadres des certificats */
+.certificate {
+  text-align: center;
+  max-width: 300px; /* Augmentez la taille maximale */
+  margin: 0 20px; /* Ajoute de l'espace horizontal entre les certificats */
+}
+
+.certificate img {
+  width: 100%;
+  height: auto; /* S'assure que les images gardent leurs proportions */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajouter un espace entre le titre et les certificats */
+#certificates h2 {
+  margin-bottom: 40px; /* Augmentez cette valeur pour plus d'espace */
+  font-size: 36px; /* Taille du texte du titre */
+  text-align: center; /* Centrer le texte */
+}
+
+.certificates-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Augmentez l'espace entre les certificats */
+  justify-content: center;
+}
+
 .contact h2 {
   margin-bottom: 3rem;
 }
